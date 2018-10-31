@@ -17,7 +17,7 @@ class Boundary extends PureComponent {
 
   componentDidCatch(error, info) {
     // You can also log the error to an error reporting service
-    //logErrorToMyService(error, info);
+    //logErrorToMyService(error.stack, info);
   }
 
   render() {
